@@ -93,6 +93,24 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "service_account_name": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "iam_role": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    ]
                 }
             ],
             "properties": {
